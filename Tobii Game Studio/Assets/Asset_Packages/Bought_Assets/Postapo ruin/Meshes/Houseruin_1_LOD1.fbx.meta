@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: a1e4557f7e2c73d40ba4c7c39b516af0
+timeCreated: 1431933953
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube.1
+    100004: Cube.1 1
+    100006: Cube.1 2
+    100008: Cube.11
+    100010: Cube.14
+    100012: Cube.15
+    100014: Cube.16
+    100016: Cube.17
+    100018: Cube.18
+    100020: Cube.19
+    100022: Cube.2
+    100024: Cube.20
+    100026: Cube.20 1
+    100028: Cube.20 10
+    100030: Cube.20 11
+    100032: Cube.20 2
+    100034: Cube.20 3
+    100036: Cube.20 4
+    100038: Cube.20 5
+    100040: Cube.20 6
+    100042: Cube.20 7
+    100044: Cube.20 8
+    100046: Cube.20 9
+    100048: Cube.21
+    100050: Cube.22
+    100052: Cube.22 1
+    100054: Cube.22 10
+    100056: Cube.22 2
+    100058: Cube.22 3
+    100060: Cube.22 4
+    100062: Cube.22 5
+    100064: Cube.22 6
+    100066: Cube.22 7
+    100068: Cube.22 8
+    100070: Cube.22 9
+    100072: Cube.23
+    100074: Cube.23 1
+    100076: Cube.24
+    100078: Cube.25
+    100080: Cube.26
+    100082: Cube.27
+    100084: Cube.28
+    100086: Cube.29
+    100088: Cube.3
+    100090: Cube.30.0
+    100092: Cube.30.1
+    100094: Cube.31
+    100096: Cube.32
+    100098: Cube.33
+    100100: Cube.34
+    100102: Cube.35
+    100104: Cube.36
+    100106: Cube.37
+    100108: Cube.39
+    100110: Cube.42
+    100112: Cube.43
+    100114: Cube.5
+    100116: Cube.7
+    100118: Cube.8
+    100120: Cube.9
+    100122: Door
+    100124: Door.1
+    100126: Door.2
+    100128: Door.3
+    100130: Door.4
+    100132: Door.5
+    100134: Door.6
+    100136: Door.7
+    100138: Door.8
+    100140: //RootNode
+    100142: Polygon
+    100144: Polygon 1
+    100146: Polygon.1
+    100148: Polygon.1 1
+    100150: Polygon.1 2
+    100152: Polygon.10
+    100154: Polygon.11
+    100156: Polygon.12
+    100158: Polygon.13
+    100160: Polygon.14
+    100162: Polygon.15
+    100164: Polygon.16
+    100166: Polygon.16 1
+    100168: Polygon.16 10
+    100170: Polygon.16 11
+    100172: Polygon.16 2
+    100174: Polygon.16 3
+    100176: Polygon.16 4
+    100178: Polygon.16 5
+    100180: Polygon.16 6
+    100182: Polygon.16 7
+    100184: Polygon.16 8
+    100186: Polygon.16 9
+    100188: Polygon.17
+    100190: Polygon.17 1
+    100192: Polygon.17 2
+    100194: Polygon.17 3
+    100196: Polygon.17 4
+    100198: Polygon.17 5
+    100200: Polygon.17 6
+    100202: Polygon.18
+    100204: Polygon.19
+    100206: Polygon.2
+    100208: Polygon.20
+    100210: Polygon.21
+    100212: Polygon.22
+    100214: Polygon.23
+    100216: Polygon.25
+    100218: Polygon.26
+    100220: Polygon.27
+    100222: Polygon.28
+    100224: Polygon.29
+    100226: Polygon.3
+    100228: Polygon.30
+    100230: Polygon.31
+    100232: Polygon.32
+    100234: Polygon.33
+    100236: Polygon.34
+    100238: Polygon.35
+    100240: Polygon.37
+    100242: Polygon.38
+    100244: Polygon.4
+    100246: Polygon.40
+    100248: Polygon.41
+    100250: Polygon.42
+    100252: Polygon.43
+    100254: Polygon.44
+    100256: Polygon.45
+    100258: Polygon.46
+    100260: Polygon.47
+    100262: Polygon.48
+    100264: Polygon.49
+    100266: Polygon.5
+    100268: Polygon.50
+    100270: Polygon.51
+    100272: Polygon.52
+    100274: Polygon.53
+    100276: Polygon.53 1
+    100278: Polygon.53 2
+    100280: Polygon.53 3
+    100282: Polygon.57
+    100284: Polygon.58
+    100286: Polygon.59
+    100288: Polygon.6
+    100290: Polygon.60
+    100292: Polygon.64
+    100294: Polygon.65
+    100296: Polygon.67
+    100298: Polygon.68
+    100300: Polygon.7
+    100302: Polygon.70
+    100304: Polygon.71
+    100306: Polygon.72
+    100308: Polygon.73
+    100310: Polygon.74
+    100312: Polygon.75
+    100314: Polygon.76
+    100316: Polygon.77
+    100318: Polygon.78
+    100320: Polygon.79
+    100322: Polygon.8
+    100324: Polygon.80
+    100326: Polygon.81
+    100328: Polygon.82
+    100330: Polygon.83
+    100332: Polygon.84
+    100334: Polygon.85
+    100336: Polygon.86
+    100338: Polygon.87
+    100340: Polygon.88
+    100342: Polygon.89
+    100344: Polygon.9
+    100346: Polygon.9 1
+    100348: Polygon.90
+    100350: Polygon.91
+    100352: Polygon.92
+    100354: Polygon.93
+    100356: sut
+    100358: sut.1
+    100360: sut.2
+    100362: sut.3
+    100364: sut.5
+    100366: sut.6
+    100368: WIN
+    100370: WIN.1
+    100372: WIN.10
+    100374: WIN.2
+    100376: WIN.3
+    100378: WIN.4
+    100380: WIN.5
+    100382: WIN.6
+    100384: WIN.7
+    100386: WIN.8
+    100388: WIN.9
+    400000: Cube
+    400002: Cube.1
+    400004: Cube.1 1
+    400006: Cube.1 2
+    400008: Cube.11
+    400010: Cube.14
+    400012: Cube.15
+    400014: Cube.16
+    400016: Cube.17
+    400018: Cube.18
+    400020: Cube.19
+    400022: Cube.2
+    400024: Cube.20
+    400026: Cube.20 1
+    400028: Cube.20 10
+    400030: Cube.20 11
+    400032: Cube.20 2
+    400034: Cube.20 3
+    400036: Cube.20 4
+    400038: Cube.20 5
+    400040: Cube.20 6
+    400042: Cube.20 7
+    400044: Cube.20 8
+    400046: Cube.20 9
+    400048: Cube.21
+    400050: Cube.22
+    400052: Cube.22 1
+    400054: Cube.22 10
+    400056: Cube.22 2
+    400058: Cube.22 3
+    400060: Cube.22 4
+    400062: Cube.22 5
+    400064: Cube.22 6
+    400066: Cube.22 7
+    400068: Cube.22 8
+    400070: Cube.22 9
+    400072: Cube.23
+    400074: Cube.23 1
+    400076: Cube.24
+    400078: Cube.25
+    400080: Cube.26
+    400082: Cube.27
+    400084: Cube.28
+    400086: Cube.29
+    400088: Cube.3
+    400090: Cube.30.0
+    400092: Cube.30.1
+    400094: Cube.31
+    400096: Cube.32
+    400098: Cube.33
+    400100: Cube.34
+    400102: Cube.35
+    400104: Cube.36
+    400106: Cube.37
+    400108: Cube.39
+    400110: Cube.42
+    400112: Cube.43
+    400114: Cube.5
+    400116: Cube.7
+    400118: Cube.8
+    400120: Cube.9
+    400122: Door
+    400124: Door.1
+    400126: Door.2
+    400128: Door.3
+    400130: Door.4
+    400132: Door.5
+    400134: Door.6
+    400136: Door.7
+    400138: Door.8
+    400140: //RootNode
+    400142: Polygon
+    400144: Polygon 1
+    400146: Polygon.1
+    400148: Polygon.1 1
+    400150: Polygon.1 2
+    400152: Polygon.10
+    400154: Polygon.11
+    400156: Polygon.12
+    400158: Polygon.13
+    400160: Polygon.14
+    400162: Polygon.15
+    400164: Polygon.16
+    400166: Polygon.16 1
+    400168: Polygon.16 10
+    400170: Polygon.16 11
+    400172: Polygon.16 2
+    400174: Polygon.16 3
+    400176: Polygon.16 4
+    400178: Polygon.16 5
+    400180: Polygon.16 6
+    400182: Polygon.16 7
+    400184: Polygon.16 8
+    400186: Polygon.16 9
+    400188: Polygon.17
+    400190: Polygon.17 1
+    400192: Polygon.17 2
+    400194: Polygon.17 3
+    400196: Polygon.17 4
+    400198: Polygon.17 5
+    400200: Polygon.17 6
+    400202: Polygon.18
+    400204: Polygon.19
+    400206: Polygon.2
+    400208: Polygon.20
+    400210: Polygon.21
+    400212: Polygon.22
+    400214: Polygon.23
+    400216: Polygon.25
+    400218: Polygon.26
+    400220: Polygon.27
+    400222: Polygon.28
+    400224: Polygon.29
+    400226: Polygon.3
+    400228: Polygon.30
+    400230: Polygon.31
+    400232: Polygon.32
+    400234: Polygon.33
+    400236: Polygon.34
+    400238: Polygon.35
+    400240: Polygon.37
+    400242: Polygon.38
+    400244: Polygon.4
+    400246: Polygon.40
+    400248: Polygon.41
+    400250: Polygon.42
+    400252: Polygon.43
+    400254: Polygon.44
+    400256: Polygon.45
+    400258: Polygon.46
+    400260: Polygon.47
+    400262: Polygon.48
+    400264: Polygon.49
+    400266: Polygon.5
+    400268: Polygon.50
+    400270: Polygon.51
+    400272: Polygon.52
+    400274: Polygon.53
+    400276: Polygon.53 1
+    400278: Polygon.53 2
+    400280: Polygon.53 3
+    400282: Polygon.57
+    400284: Polygon.58
+    400286: Polygon.59
+    400288: Polygon.6
+    400290: Polygon.60
+    400292: Polygon.64
+    400294: Polygon.65
+    400296: Polygon.67
+    400298: Polygon.68
+    400300: Polygon.7
+    400302: Polygon.70
+    400304: Polygon.71
+    400306: Polygon.72
+    400308: Polygon.73
+    400310: Polygon.74
+    400312: Polygon.75
+    400314: Polygon.76
+    400316: Polygon.77
+    400318: Polygon.78
+    400320: Polygon.79
+    400322: Polygon.8
+    400324: Polygon.80
+    400326: Polygon.81
+    400328: Polygon.82
+    400330: Polygon.83
+    400332: Polygon.84
+    400334: Polygon.85
+    400336: Polygon.86
+    400338: Polygon.87
+    400340: Polygon.88
+    400342: Polygon.89
+    400344: Polygon.9
+    400346: Polygon.9 1
+    400348: Polygon.90
+    400350: Polygon.91
+    400352: Polygon.92
+    400354: Polygon.93
+    400356: sut
+    400358: sut.1
+    400360: sut.2
+    400362: sut.3
+    400364: sut.5
+    400366: sut.6
+    400368: WIN
+    400370: WIN.1
+    400372: WIN.10
+    400374: WIN.2
+    400376: WIN.3
+    400378: WIN.4
+    400380: WIN.5
+    400382: WIN.6
+    400384: WIN.7
+    400386: WIN.8
+    400388: WIN.9
+    2300000: Cube
+    2300002: Cube.1
+    2300004: Cube.1 1
+    2300006: Cube.1 2
+    2300008: Cube.11
+    2300010: Cube.14
+    2300012: Cube.15
+    2300014: Cube.16
+    2300016: Cube.17
+    2300018: Cube.18
+    2300020: Cube.19
+    2300022: Cube.2
+    2300024: Cube.20
+    2300026: Cube.20 1
+    2300028: Cube.20 10
+    2300030: Cube.20 11
+    2300032: Cube.20 2
+    2300034: Cube.20 3
+    2300036: Cube.20 4
+    2300038: Cube.20 5
+    2300040: Cube.20 6
+    2300042: Cube.20 7
+    2300044: Cube.20 8
+    2300046: Cube.20 9
+    2300048: Cube.21
+    2300050: Cube.22
+    2300052: Cube.22 1
+    2300054: Cube.22 10
+    2300056: Cube.22 2
+    2300058: Cube.22 3
+    2300060: Cube.22 4
+    2300062: Cube.22 5
+    2300064: Cube.22 6
+    2300066: Cube.22 7
+    2300068: Cube.22 8
+    2300070: Cube.22 9
+    2300072: Cube.23
+    2300074: Cube.23 1
+    2300076: Cube.24
+    2300078: Cube.25
+    2300080: Cube.26
+    2300082: Cube.27
+    2300084: Cube.28
+    2300086: Cube.29
+    2300088: Cube.3
+    2300090: Cube.30.0
+    2300092: Cube.30.1
+    2300094: Cube.31
+    2300096: Cube.32
+    2300098: Cube.33
+    2300100: Cube.34
+    2300102: Cube.35
+    2300104: Cube.36
+    2300106: Cube.37
+    2300108: Cube.39
+    2300110: Cube.42
+    2300112: Cube.43
+    2300114: Cube.5
+    2300116: Cube.7
+    2300118: Cube.8
+    2300120: Cube.9
+    2300122: Door
+    2300124: Door.1
+    2300126: Door.2
+    2300128: Door.3
+    2300130: Door.4
+    2300132: Door.5
+    2300134: Door.6
+    2300136: Door.7
+    2300138: Door.8
+    2300140: Polygon
+    2300142: Polygon 1
+    2300144: Polygon.1
+    2300146: Polygon.1 1
+    2300148: Polygon.1 2
+    2300150: Polygon.10
+    2300152: Polygon.11
+    2300154: Polygon.12
+    2300156: Polygon.13
+    2300158: Polygon.14
+    2300160: Polygon.15
+    2300162: Polygon.16
+    2300164: Polygon.16 1
+    2300166: Polygon.16 10
+    2300168: Polygon.16 11
+    2300170: Polygon.16 2
+    2300172: Polygon.16 3
+    2300174: Polygon.16 4
+    2300176: Polygon.16 5
+    2300178: Polygon.16 6
+    2300180: Polygon.16 7
+    2300182: Polygon.16 8
+    2300184: Polygon.16 9
+    2300186: Polygon.17
+    2300188: Polygon.17 1
+    2300190: Polygon.17 2
+    2300192: Polygon.17 3
+    2300194: Polygon.17 4
+    2300196: Polygon.17 5
+    2300198: Polygon.17 6
+    2300200: Polygon.18
+    2300202: Polygon.19
+    2300204: Polygon.2
+    2300206: Polygon.20
+    2300208: Polygon.21
+    2300210: Polygon.22
+    2300212: Polygon.23
+    2300214: Polygon.25
+    2300216: Polygon.26
+    2300218: Polygon.27
+    2300220: Polygon.28
+    2300222: Polygon.29
+    2300224: Polygon.3
+    2300226: Polygon.30
+    2300228: Polygon.31
+    2300230: Polygon.32
+    2300232: Polygon.33
+    2300234: Polygon.34
+    2300236: Polygon.35
+    2300238: Polygon.37
+    2300240: Polygon.38
+    2300242: Polygon.4
+    2300244: Polygon.40
+    2300246: Polygon.41
+    2300248: Polygon.42
+    2300250: Polygon.43
+    2300252: Polygon.44
+    2300254: Polygon.45
+    2300256: Polygon.46
+    2300258: Polygon.47
+    2300260: Polygon.48
+    2300262: Polygon.49
+    2300264: Polygon.5
+    2300266: Polygon.50
+    2300268: Polygon.51
+    2300270: Polygon.52
+    2300272: Polygon.53
+    2300274: Polygon.53 1
+    2300276: Polygon.53 2
+    2300278: Polygon.53 3
+    2300280: Polygon.57
+    2300282: Polygon.58
+    2300284: Polygon.59
+    2300286: Polygon.6
+    2300288: Polygon.60
+    2300290: Polygon.64
+    2300292: Polygon.65
+    2300294: Polygon.67
+    2300296: Polygon.68
+    2300298: Polygon.7
+    2300300: Polygon.70
+    2300302: Polygon.71
+    2300304: Polygon.72
+    2300306: Polygon.73
+    2300308: Polygon.74
+    2300310: Polygon.75
+    2300312: Polygon.76
+    2300314: Polygon.77
+    2300316: Polygon.78
+    2300318: Polygon.79
+    2300320: Polygon.8
+    2300322: Polygon.80
+    2300324: Polygon.81
+    2300326: Polygon.82
+    2300328: Polygon.83
+    2300330: Polygon.84
+    2300332: Polygon.85
+    2300334: Polygon.86
+    2300336: Polygon.87
+    2300338: Polygon.88
+    2300340: Polygon.89
+    2300342: Polygon.9
+    2300344: Polygon.9 1
+    2300346: Polygon.90
+    2300348: Polygon.91
+    2300350: Polygon.92
+    2300352: Polygon.93
+    2300354: sut
+    2300356: sut.1
+    2300358: sut.2
+    2300360: sut.3
+    2300362: sut.5
+    2300364: sut.6
+    3300000: Cube
+    3300002: Cube.1
+    3300004: Cube.1 1
+    3300006: Cube.1 2
+    3300008: Cube.11
+    3300010: Cube.14
+    3300012: Cube.15
+    3300014: Cube.16
+    3300016: Cube.17
+    3300018: Cube.18
+    3300020: Cube.19
+    3300022: Cube.2
+    3300024: Cube.20
+    3300026: Cube.20 1
+    3300028: Cube.20 10
+    3300030: Cube.20 11
+    3300032: Cube.20 2
+    3300034: Cube.20 3
+    3300036: Cube.20 4
+    3300038: Cube.20 5
+    3300040: Cube.20 6
+    3300042: Cube.20 7
+    3300044: Cube.20 8
+    3300046: Cube.20 9
+    3300048: Cube.21
+    3300050: Cube.22
+    3300052: Cube.22 1
+    3300054: Cube.22 10
+    3300056: Cube.22 2
+    3300058: Cube.22 3
+    3300060: Cube.22 4
+    3300062: Cube.22 5
+    3300064: Cube.22 6
+    3300066: Cube.22 7
+    3300068: Cube.22 8
+    3300070: Cube.22 9
+    3300072: Cube.23
+    3300074: Cube.23 1
+    3300076: Cube.24
+    3300078: Cube.25
+    3300080: Cube.26
+    3300082: Cube.27
+    3300084: Cube.28
+    3300086: Cube.29
+    3300088: Cube.3
+    3300090: Cube.30.0
+    3300092: Cube.30.1
+    3300094: Cube.31
+    3300096: Cube.32
+    3300098: Cube.33
+    3300100: Cube.34
+    3300102: Cube.35
+    3300104: Cube.36
+    3300106: Cube.37
+    3300108: Cube.39
+    3300110: Cube.42
+    3300112: Cube.43
+    3300114: Cube.5
+    3300116: Cube.7
+    3300118: Cube.8
+    3300120: Cube.9
+    3300122: Door
+    3300124: Door.1
+    3300126: Door.2
+    3300128: Door.3
+    3300130: Door.4
+    3300132: Door.5
+    3300134: Door.6
+    3300136: Door.7
+    3300138: Door.8
+    3300140: Polygon
+    3300142: Polygon 1
+    3300144: Polygon.1
+    3300146: Polygon.1 1
+    3300148: Polygon.1 2
+    3300150: Polygon.10
+    3300152: Polygon.11
+    3300154: Polygon.12
+    3300156: Polygon.13
+    3300158: Polygon.14
+    3300160: Polygon.15
+    3300162: Polygon.16
+    3300164: Polygon.16 1
+    3300166: Polygon.16 10
+    3300168: Polygon.16 11
+    3300170: Polygon.16 2
+    3300172: Polygon.16 3
+    3300174: Polygon.16 4
+    3300176: Polygon.16 5
+    3300178: Polygon.16 6
+    3300180: Polygon.16 7
+    3300182: Polygon.16 8
+    3300184: Polygon.16 9
+    3300186: Polygon.17
+    3300188: Polygon.17 1
+    3300190: Polygon.17 2
+    3300192: Polygon.17 3
+    3300194: Polygon.17 4
+    3300196: Polygon.17 5
+    3300198: Polygon.17 6
+    3300200: Polygon.18
+    3300202: Polygon.19
+    3300204: Polygon.2
+    3300206: Polygon.20
+    3300208: Polygon.21
+    3300210: Polygon.22
+    3300212: Polygon.23
+    3300214: Polygon.25
+    3300216: Polygon.26
+    3300218: Polygon.27
+    3300220: Polygon.28
+    3300222: Polygon.29
+    3300224: Polygon.3
+    3300226: Polygon.30
+    3300228: Polygon.31
+    3300230: Polygon.32
+    3300232: Polygon.33
+    3300234: Polygon.34
+    3300236: Polygon.35
+    3300238: Polygon.37
+    3300240: Polygon.38
+    3300242: Polygon.4
+    3300244: Polygon.40
+    3300246: Polygon.41
+    3300248: Polygon.42
+    3300250: Polygon.43
+    3300252: Polygon.44
+    3300254: Polygon.45
+    3300256: Polygon.46
+    3300258: Polygon.47
+    3300260: Polygon.48
+    3300262: Polygon.49
+    3300264: Polygon.5
+    3300266: Polygon.50
+    3300268: Polygon.51
+    3300270: Polygon.52
+    3300272: Polygon.53
+    3300274: Polygon.53 1
+    3300276: Polygon.53 2
+    3300278: Polygon.53 3
+    3300280: Polygon.57
+    3300282: Polygon.58
+    3300284: Polygon.59
+    3300286: Polygon.6
+    3300288: Polygon.60
+    3300290: Polygon.64
+    3300292: Polygon.65
+    3300294: Polygon.67
+    3300296: Polygon.68
+    3300298: Polygon.7
+    3300300: Polygon.70
+    3300302: Polygon.71
+    3300304: Polygon.72
+    3300306: Polygon.73
+    3300308: Polygon.74
+    3300310: Polygon.75
+    3300312: Polygon.76
+    3300314: Polygon.77
+    3300316: Polygon.78
+    3300318: Polygon.79
+    3300320: Polygon.8
+    3300322: Polygon.80
+    3300324: Polygon.81
+    3300326: Polygon.82
+    3300328: Polygon.83
+    3300330: Polygon.84
+    3300332: Polygon.85
+    3300334: Polygon.86
+    3300336: Polygon.87
+    3300338: Polygon.88
+    3300340: Polygon.89
+    3300342: Polygon.9
+    3300344: Polygon.9 1
+    3300346: Polygon.90
+    3300348: Polygon.91
+    3300350: Polygon.92
+    3300352: Polygon.93
+    3300354: sut
+    3300356: sut.1
+    3300358: sut.2
+    3300360: sut.3
+    3300362: sut.5
+    3300364: sut.6
+    4300000: Cube
+    4300002: Cube.1
+    4300004: Cube.1
+    4300006: Cube.1
+    4300008: Cube.11
+    4300010: Cube.14
+    4300012: Cube.15
+    4300014: Cube.16
+    4300016: Cube.17
+    4300018: Cube.18
+    4300020: Cube.19
+    4300022: Cube.2
+    4300024: Cube.20
+    4300026: Cube.21
+    4300028: Cube.23
+    4300030: Cube.23
+    4300032: Cube.24
+    4300034: Cube.25
+    4300036: Cube.26
+    4300038: Cube.27
+    4300040: Cube.28
+    4300042: Cube.29
+    4300044: Cube.3
+    4300046: Cube.30.0
+    4300048: Cube.30.1
+    4300050: Cube.31
+    4300052: Cube.32
+    4300054: Cube.33
+    4300056: Cube.34
+    4300058: Cube.35
+    4300060: Cube.36
+    4300062: Cube.37
+    4300064: Cube.39
+    4300066: Cube.42
+    4300068: Cube.43
+    4300070: Cube.5
+    4300072: Cube.7
+    4300074: Cube.8
+    4300076: Cube.9
+    4300078: Door
+    4300080: Door.1
+    4300082: Door.2
+    4300084: Door.3
+    4300086: Door.4
+    4300088: Door.5
+    4300090: Door.6
+    4300092: Door.7
+    4300094: Door.8
+    4300096: Polygon
+    4300098: Polygon
+    4300100: Polygon.1
+    4300102: Polygon.1
+    4300104: Polygon.1
+    4300106: Polygon.10
+    4300108: Polygon.11
+    4300110: Polygon.12
+    4300112: Polygon.13
+    4300114: Polygon.14
+    4300116: Polygon.15
+    4300118: Polygon.16
+    4300120: Polygon.17
+    4300122: Polygon.18
+    4300124: Polygon.19
+    4300126: Polygon.2
+    4300128: Polygon.20
+    4300130: Polygon.21
+    4300132: Polygon.22
+    4300134: Polygon.23
+    4300136: Polygon.25
+    4300138: Polygon.26
+    4300140: Polygon.27
+    4300142: Polygon.28
+    4300144: Polygon.29
+    4300146: Polygon.3
+    4300148: Polygon.30
+    4300150: Polygon.31
+    4300152: Polygon.32
+    4300154: Polygon.33
+    4300156: Polygon.34
+    4300158: Polygon.35
+    4300160: Polygon.37
+    4300162: Polygon.38
+    4300164: Polygon.4
+    4300166: Polygon.40
+    4300168: Polygon.41
+    4300170: Polygon.42
+    4300172: Polygon.43
+    4300174: Polygon.44
+    4300176: Polygon.45
+    4300178: Polygon.46
+    4300180: Polygon.47
+    4300182: Polygon.48
+    4300184: Polygon.49
+    4300186: Polygon.5
+    4300188: Polygon.50
+    4300190: Polygon.51
+    4300192: Polygon.52
+    4300194: Polygon.57
+    4300196: Polygon.58
+    4300198: Polygon.59
+    4300200: Polygon.6
+    4300202: Polygon.64
+    4300204: Polygon.65
+    4300206: Polygon.67
+    4300208: Polygon.68
+    4300210: Polygon.7
+    4300212: Polygon.70
+    4300214: Polygon.71
+    4300216: Polygon.72
+    4300218: Polygon.73
+    4300220: Polygon.74
+    4300222: Polygon.75
+    4300224: Polygon.76
+    4300226: Polygon.77
+    4300228: Polygon.78
+    4300230: Polygon.79
+    4300232: Polygon.8
+    4300234: Polygon.80
+    4300236: Polygon.81
+    4300238: Polygon.82
+    4300240: Polygon.83
+    4300242: Polygon.84
+    4300244: Polygon.85
+    4300246: Polygon.86
+    4300248: Polygon.87
+    4300250: Polygon.88
+    4300252: Polygon.89
+    4300254: Polygon.9
+    4300256: Polygon.9
+    4300258: Polygon.90
+    4300260: Polygon.91
+    4300262: Polygon.92
+    4300264: Polygon.93
+    4300266: sut
+    4300268: sut.1
+    4300270: sut.2
+    4300272: sut.3
+    4300274: sut.5
+    4300276: sut.6
+    4300278: Cube.20
+    4300280: Cube.22
+    4300282: Polygon.16
+    4300284: Polygon.17
+    4300286: Cube.20
+    4300288: Cube.22
+    4300290: Polygon.16
+    4300292: Polygon.17
+    4300294: Cube.20
+    4300296: Cube.22
+    4300298: Polygon.16
+    4300300: Polygon.53
+    4300302: Cube.20
+    4300304: Cube.22
+    4300306: Polygon.16
+    4300308: Polygon.17
+    4300310: Cube.20
+    4300312: Cube.22
+    4300314: Polygon.16
+    4300316: Polygon.17
+    4300318: Cube.20
+    4300320: Cube.22
+    4300322: Polygon.16
+    4300324: Polygon.17
+    4300326: Cube.20
+    4300328: Cube.22
+    4300330: Polygon.16
+    4300332: Polygon.17
+    4300334: Cube.20
+    4300336: Cube.22
+    4300338: Polygon.16
+    4300340: Polygon.53
+    4300342: Cube.20
+    4300344: Cube.22
+    4300346: Polygon.16
+    4300348: Polygon.60
+    4300350: Cube.20
+    4300352: Cube.22
+    4300354: Polygon.16
+    4300356: Polygon.53
+    4300358: Cube.20
+    4300360: Cube.22
+    4300362: Polygon.16
+    4300364: Polygon.53
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
