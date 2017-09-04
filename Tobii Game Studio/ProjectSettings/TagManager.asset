@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - WandarPoint
+  - Attack
+  - Spawner
+  - Key
+  - Ladder
+  - Phase2
+  - Padlock
+  - Glass
+  - Door
+  - Angel
+  - Phase1
+  - LadderTop
+  - LadderBase
+  - Cabinet
+  - Rubble
+  - Interact
+  - Art
+  - Skeleton
+  - A_Music
+  - C_Music
+  - Waltz_Music
+  - EndDoll
+  - cultistGhost
+  - Fire
+  - cultistGhostTrigger
+  - keyTrigger
+  - activatorKey
+  - cultistKey
+  - paintingKeyTrigger
+  - paintingKey
+  - cultistGhostCore
+  - keyCollider
+  - manPainting
+  - castleKey
+  - TheWall
+  - TheWall2
+  - EnemyTarget
+  - ghostKeyLight
+  - growlTrigger
+  - secondPhase
+  - outTrigger
+  - inTrigger
+  - goneTrigger
+  - outTriggerNo
+  - inTriggerNo
+  - goneTriggerNo
+  - StatueSimon
+  - Note
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
