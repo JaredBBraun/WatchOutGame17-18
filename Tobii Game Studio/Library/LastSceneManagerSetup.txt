@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/In Game Scenes/WO_Level2_02.unity
+  isLoaded: 1
+  isActive: 1
