@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 120
+  controlID: 52
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 121
+  controlID: 53
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 122
+  controlID: 54
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,7 +346,7 @@ MonoBehaviour:
     width: 1631
     height: 382
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: brick
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -357,20 +357,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes/In Game Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes/In Game Scenes
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\genlab\Documents\GitHub\WatchOutGame17-18\Tobii Game
-    Studio
+  m_LastProjectPath: T:\WatchOutGame17-18\Tobii Game Studio
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 23}
-    m_SelectedIDs: 407b0000
-    m_LastClickedID: 31552
-    m_ExpandedIDs: d45b0000d885000000ca9a3bffffff7f
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000f22f0000125c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -398,7 +397,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000f22f0000125c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -450,7 +449,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 1063}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 115
 --- !u!114 &15
@@ -514,9 +513,9 @@ MonoBehaviour:
     height: 595
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aa720000
-    m_LastClickedID: 0
-    m_ExpandedIDs: da66ffff086bffff00000000
+    m_SelectedIDs: 9a38ffff
+    m_LastClickedID: -51046
+    m_ExpandedIDs: 9a38ffffd6aaffff00000000328d00009e8e00000092000070b80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -566,14 +565,14 @@ MonoBehaviour:
     width: 1225
     height: 595
   m_SceneLighting: 0
-  lastFramingTime: 351.7939925993735
+  lastFramingTime: 77.47376796634292
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -53.435932, y: 13.806517, z: 43.771355}
+    m_Target: {x: -54.24, y: 7.84, z: 27.56}
     speed: 2
-    m_Value: {x: -53.435932, y: 13.806517, z: 43.771355}
+    m_Value: {x: -54.24, y: 7.84, z: 27.56}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -596,13 +595,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.0013117179, y: 0.9780761, z: 0.20815282, w: 0.0061628935}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: -0.0013117179, y: 0.9780761, z: 0.20815282, w: 0.0061628935}
   m_Size:
-    m_Target: 22.51527
+    m_Target: 12.35429
     speed: 2
-    m_Value: 22.51527
+    m_Value: 12.35429
   m_Ortho:
     m_Target: 0
     speed: 2
