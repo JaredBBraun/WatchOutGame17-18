@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 using Tobii.EyeX.Framework;
 
 public class MyLookAt : MonoBehaviour
@@ -7,11 +8,13 @@ public class MyLookAt : MonoBehaviour
     private Camera eyeCamera;
     EyeXHost eyeXHost;
     public GazePointDataComponent _gazePointDataComponent;
+    
 
     void Start()
     {
         this.eyeXHost = GameObject.FindObjectOfType<EyeXHost>();
         Debug.Log("We have the eyex host");
+        
     }
 
     Vector2 GetEyeGazePoint()
@@ -28,13 +31,13 @@ public class MyLookAt : MonoBehaviour
         var displaySize = eyeXHost.DisplaySize;
         var screenBounds = eyeXHost.ScreenBounds;
         var provider = eyeXHost.GetEyePositionDataProvider();
-        var LastgazePoint = _gazePointDataComponent.LastGazePoint;
+        EyeXGazePoint LastgazePoint = _gazePointDataComponent.LastGazePoint;
 
         if (provider.Last.IsValid)
         {
             //get ave position of eyes in pixels
           //  Debug.Log("Its working ");
-            var temp = new Vector2((LastgazePoint.Display.x), (LastgazePoint.Display.y - 100));
+            var temp = new Vector2((LastgazePoint.Display.x), (LastgazePoint.Display.y));
            // Debug.Log(temp);
             return temp;
 
@@ -83,7 +86,7 @@ public class MyLookAt : MonoBehaviour
 
         Vector3 lookPosition = lookTransform.position;
         Vector3 lookFoward = destination - lookPosition;
-        lookFoward.y = -lookFoward.y;
+        lookFoward.y = -lookFoward.y; //inverted
         Vector3 lookFowardNormalized = lookFoward.normalized;
 
         Quaternion lookRotation = Quaternion.LookRotation(lookFowardNormalized, Vector3.up);
