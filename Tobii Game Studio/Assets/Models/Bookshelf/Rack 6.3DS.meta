@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 17340ae731b2d6c44bc043345ec4ff38
+timeCreated: 1505872419
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: 'dvd shelf '
+    100002: dvd shelf0
+    100004: dvd shelf1
+    100006: dvds1
+    100008: dvds2
+    100010: dvds3
+    100012: //RootNode
+    400000: 'dvd shelf '
+    400002: dvd shelf0
+    400004: dvd shelf1
+    400006: dvds1
+    400008: dvds2
+    400010: dvds3
+    400012: //RootNode
+    2300000: 'dvd shelf '
+    2300002: dvd shelf0
+    2300004: dvd shelf1
+    2300006: dvds1
+    2300008: dvds2
+    2300010: dvds3
+    3300000: 'dvd shelf '
+    3300002: dvd shelf0
+    3300004: dvd shelf1
+    3300006: dvds1
+    3300008: dvds2
+    3300010: dvds3
+    4300000: 'dvd shelf '
+    4300002: dvds1
+    4300004: dvds2
+    4300006: dvd shelf0
+    4300008: dvds3
+    4300010: dvd shelf1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

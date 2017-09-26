@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: cd9c6c46ae08384469b8bd0ab01a9d04
+timeCreated: 1506362236
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: furniture
+    100004: kovka1
+    100006: kovka2
+    100008: kovka3
+    100010: kovka4
+    100012: portal
+    100014: rama_door
+    100016: rama_door2
+    100018: rama_door3
+    100020: rama_door4
+    100022: Rectangle8
+    100024: window003
+    100026: window1
+    100028: window2
+    100030: window4
+    400000: //RootNode
+    400002: furniture
+    400004: kovka1
+    400006: kovka2
+    400008: kovka3
+    400010: kovka4
+    400012: portal
+    400014: rama_door
+    400016: rama_door2
+    400018: rama_door3
+    400020: rama_door4
+    400022: Rectangle8
+    400024: window003
+    400026: window1
+    400028: window2
+    400030: window4
+    2300000: furniture
+    2300002: kovka1
+    2300004: kovka2
+    2300006: kovka3
+    2300008: kovka4
+    2300010: portal
+    2300012: rama_door
+    2300014: rama_door2
+    2300016: rama_door3
+    2300018: rama_door4
+    2300020: Rectangle8
+    2300022: window003
+    2300024: window1
+    2300026: window2
+    2300028: window4
+    3300000: furniture
+    3300002: kovka1
+    3300004: kovka2
+    3300006: kovka3
+    3300008: kovka4
+    3300010: portal
+    3300012: rama_door
+    3300014: rama_door2
+    3300016: rama_door3
+    3300018: rama_door4
+    3300020: Rectangle8
+    3300022: window003
+    3300024: window1
+    3300026: window2
+    3300028: window4
+    4300000: portal
+    4300002: window003
+    4300004: window1
+    4300006: window2
+    4300008: Rectangle8
+    4300010: rama_door3
+    4300012: rama_door
+    4300014: kovka2
+    4300016: window4
+    4300018: rama_door4
+    4300020: furniture
+    4300022: kovka1
+    4300024: kovka3
+    4300026: kovka4
+    4300028: rama_door2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
