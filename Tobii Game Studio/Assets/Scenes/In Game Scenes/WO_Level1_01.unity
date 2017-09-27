@@ -806,7 +806,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4972190603060348, guid: fc1c349f5ccf101458f2ff8833f90918, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fc1c349f5ccf101458f2ff8833f90918, type: 2}
@@ -1756,7 +1756,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &370308192
 GameObject:
@@ -1884,8 +1884,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4266868818456058, guid: 505e3541a32baf948b603d7f83a27efc, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4736563640402508, guid: 505e3541a32baf948b603d7f83a27efc, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 21.236
+      objectReference: {fileID: 0}
+    - target: {fileID: 23239690446162252, guid: 505e3541a32baf948b603d7f83a27efc,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 016b24fc9621a0748a25a1117e5dd5f8, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 505e3541a32baf948b603d7f83a27efc, type: 2}
   m_IsPrefabParent: 0
@@ -2355,6 +2364,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34382083ad114a07d000fbfb8d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iterations: 3
+  blurSpread: 0.6
+  blurShader: {fileID: 0}
 --- !u!114 &502557685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2366,6 +2378,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b5ec6153a1d55438228df10fe66844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distanceFog: 1
+  useRadialDistance: 0
+  heightFog: 1
+  height: 1
+  heightDensity: 2
+  startDistance: 0
+  fogShader: {fileID: 0}
 --- !u!114 &502557686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2377,6 +2396,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4739c22ef73ad62488fe344c8fe9addd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  strengthX: 0.05
+  strengthY: 0.05
+  fishEyeShader: {fileID: 0}
 --- !u!114 &502557687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2388,6 +2410,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 478a2083ad114a07d000fbfb8d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shader: {fileID: 0}
+  blurAmount: 0.8
+  extraBlur: 0
 --- !u!114 &502557688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2399,6 +2424,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88a26a276b4e47619ce2c5adad33fab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monochrome: 1
+  grainIntensityMin: 0.1
+  grainIntensityMax: 0.2
+  grainSize: 2
+  scratchIntensityMin: 0.05
+  scratchIntensityMax: 0.25
+  scratchFPS: 10
+  scratchJitter: 0.01
+  grainTexture: {fileID: 0}
+  scratchTexture: {fileID: 0}
+  shaderRGB: {fileID: 0}
+  shaderYUV: {fileID: 0}
 --- !u!114 &502557689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2410,6 +2447,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b3a7095a744a428c134b5e26ad68e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mode: 0
+  quality: 1
+  blurArea: 1
+  maxBlurSize: 5
+  downsample: 0
+  tiltShiftShader: {fileID: 0}
 --- !u!114 &502557690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2421,6 +2464,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f19108706fdce9469603d07980eb8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blendMode: 3
+  intensity: 1
+  texture: {fileID: 0}
+  overlayShader: {fileID: 0}
 --- !u!65 &502557691
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2450,7 +2497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &516380900
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2464,7 +2511,7 @@ RectTransform:
   - {fileID: 280034979}
   - {fileID: 1378456309}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3169,6 +3216,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a49d14170bfa640aec7c2bcbcc3020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_IsWalking: 0
+  m_WalkSpeed: 0
+  m_RunSpeed: 0
+  m_RunstepLenghten: 0
+  m_JumpSpeed: 0
+  m_StickToGroundForce: 0
+  m_GravityMultiplier: 0
+  m_MouseLook:
+    XSensitivity: 2
+    YSensitivity: 2
+    clampVerticalRotation: 1
+    MinimumX: -90
+    MaximumX: 90
+    smooth: 0
+    smoothTime: 5
+  m_UseFovKick: 0
+  m_FovKick:
+    Camera: {fileID: 0}
+    originalFov: 0
+    FOVIncrease: 3
+    TimeToIncrease: 1
+    TimeToDecrease: 1
+    IncreaseCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_UseHeadBob: 0
+  m_HeadBob:
+    HorizontalBobRange: 0.33
+    VerticalBobRange: 0.33
+    Bobcurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    VerticaltoHorizontalRatio: 1
+  m_JumpBob:
+    BobDuration: 0
+    BobAmount: 0
+  m_StepInterval: 0
+  m_FootstepSounds: []
+  m_JumpSound: {fileID: 0}
+  m_LandSound: {fileID: 0}
 --- !u!82 &651070012
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3306,6 +3429,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72632e0901ddab745ac7a8a18c08fee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ontop: 0
+  onbase: 0
+  onladder: 0
+  mychar: {fileID: 0}
+  curLadderPos: {fileID: 0}
+  curLadderTopS: {fileID: 0}
+  curLadderTopT: {fileID: 0}
+  curLadderBase: {fileID: 0}
 --- !u!114 &651070017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3330,6 +3461,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f16515146b998438aaba84bd8fea55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ImDead: {fileID: 0}
+  isHurt: 0
+  flashSpeed: 5
+  flashColour: {r: 1, g: 0, b: 0, a: 0.1}
+  damageImage: {fileID: 0}
+  isDead: 0
 --- !u!114 &651070019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3354,6 +3491,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ab79d7f243824f5d9826bd83522c8df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canControl: 1
+  useFixedUpdate: 1
+  movement:
+    maxForwardSpeed: 10
+    maxSidewaysSpeed: 10
+    maxBackwardsSpeed: 10
+    slopeSpeedMultiplier:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: -90
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 90
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxGroundAcceleration: 30
+    maxAirAcceleration: 20
+    gravity: 10
+    maxFallSpeed: 20
+  jumping:
+    enabled: 1
+    baseHeight: 1
+    extraHeight: 4.1
+    perpAmount: 0
+    steepPerpAmount: 0.5
+  movingPlatform:
+    enabled: 1
+    movementTransfer: 2
+  sliding:
+    enabled: 1
+    slidingSpeed: 15
+    sidewaysControl: 1
+    speedControl: 0.4
 --- !u!114 &651070021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3395,6 +3580,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_IsWalking: 0
+  m_WalkSpeed: 0
+  m_RunSpeed: 0
+  m_RunstepLenghten: 0
+  m_JumpSpeed: 0
+  m_StickToGroundForce: 0
+  m_GravityMultiplier: 0
+  m_MouseLook:
+    XSensitivity: 2
+    YSensitivity: 2
+    clampVerticalRotation: 1
+    MinimumX: -90
+    MaximumX: 90
+    smooth: 0
+    smoothTime: 5
+  m_UseFovKick: 0
+  m_FovKick:
+    Camera: {fileID: 0}
+    originalFov: 0
+    FOVIncrease: 3
+    TimeToIncrease: 1
+    TimeToDecrease: 1
+    IncreaseCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_UseHeadBob: 0
+  m_HeadBob:
+    HorizontalBobRange: 0.33
+    VerticalBobRange: 0.33
+    Bobcurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    VerticaltoHorizontalRatio: 1
+  m_JumpBob:
+    BobDuration: 0
+    BobAmount: 0
+  m_StepInterval: 0
+  m_FootstepSounds: []
+  m_JumpSound: {fileID: 0}
+  m_LandSound: {fileID: 0}
 --- !u!1 &664392321
 GameObject:
   m_ObjectHideFlags: 0
@@ -3591,6 +3852,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f16515146b998438aaba84bd8fea55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ImDead: {fileID: 0}
+  isHurt: 0
+  flashSpeed: 5
+  flashColour: {r: 1, g: 0, b: 0, a: 0.1}
+  damageImage: {fileID: 0}
+  isDead: 0
 --- !u!114 &699550788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3615,6 +3882,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ab79d7f243824f5d9826bd83522c8df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canControl: 1
+  useFixedUpdate: 1
+  movement:
+    maxForwardSpeed: 10
+    maxSidewaysSpeed: 10
+    maxBackwardsSpeed: 10
+    slopeSpeedMultiplier:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: -90
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 90
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    maxGroundAcceleration: 30
+    maxAirAcceleration: 20
+    gravity: 10
+    maxFallSpeed: 20
+  jumping:
+    enabled: 1
+    baseHeight: 1
+    extraHeight: 4.1
+    perpAmount: 0
+    steepPerpAmount: 0.5
+  movingPlatform:
+    enabled: 1
+    movementTransfer: 2
+  sliding:
+    enabled: 1
+    slidingSpeed: 15
+    sidewaysControl: 1
+    speedControl: 0.4
 --- !u!114 &699550790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3924,6 +4239,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72632e0901ddab745ac7a8a18c08fee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ontop: 0
+  onbase: 0
+  onladder: 0
+  mychar: {fileID: 0}
+  curLadderPos: {fileID: 0}
+  curLadderTopS: {fileID: 0}
+  curLadderTopT: {fileID: 0}
+  curLadderBase: {fileID: 0}
 --- !u!1 &828469392
 GameObject:
   m_ObjectHideFlags: 0
@@ -4137,7 +4460,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &955122145
 GameObject:
@@ -4594,6 +4917,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a49d14170bfa640aec7c2bcbcc3020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_IsWalking: 0
+  m_WalkSpeed: 0
+  m_RunSpeed: 0
+  m_RunstepLenghten: 0
+  m_JumpSpeed: 0
+  m_StickToGroundForce: 0
+  m_GravityMultiplier: 0
+  m_MouseLook:
+    XSensitivity: 2
+    YSensitivity: 2
+    clampVerticalRotation: 1
+    MinimumX: -90
+    MaximumX: 90
+    smooth: 0
+    smoothTime: 5
+  m_UseFovKick: 0
+  m_FovKick:
+    Camera: {fileID: 0}
+    originalFov: 0
+    FOVIncrease: 3
+    TimeToIncrease: 1
+    TimeToDecrease: 1
+    IncreaseCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_UseHeadBob: 0
+  m_HeadBob:
+    HorizontalBobRange: 0.33
+    VerticalBobRange: 0.33
+    Bobcurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    VerticaltoHorizontalRatio: 1
+  m_JumpBob:
+    BobDuration: 0
+    BobAmount: 0
+  m_StepInterval: 0
+  m_FootstepSounds: []
+  m_JumpSound: {fileID: 0}
+  m_LandSound: {fileID: 0}
 --- !u!82 &1048316669
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5041,7 +5440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1105586534
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5210,6 +5609,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdda781cad112c75d0008dfa8d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shader: {fileID: 0}
+  radius: {x: 0.3, y: 0.3}
+  angle: 50
+  center: {x: 0.5, y: 0.5}
 --- !u!114 &1112339069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5222,6 +5625,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a94b781cad112c75d0008dfa8d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shader: {fileID: 0}
+  radius: {x: 0.4, y: 0.4}
+  angle: 50
+  center: {x: 0.5, y: 0.5}
 --- !u!114 &1112339070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5234,6 +5641,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88a26a276b4e47619ce2c5adad33fab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monochrome: 1
+  grainIntensityMin: 0.1
+  grainIntensityMax: 0.2
+  grainSize: 2
+  scratchIntensityMin: 0.05
+  scratchIntensityMax: 0.25
+  scratchFPS: 10
+  scratchJitter: 0.01
+  grainTexture: {fileID: 0}
+  scratchTexture: {fileID: 0}
+  shaderRGB: {fileID: 0}
+  shaderYUV: {fileID: 0}
 --- !u!114 &1112339071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5241,11 +5660,15 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1112339066}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f19108706fdce9469603d07980eb8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blendMode: 3
+  intensity: 1
+  texture: {fileID: 0}
+  overlayShader: {fileID: 0}
 --- !u!114 &1112339072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5258,6 +5681,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4739c22ef73ad62488fe344c8fe9addd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  strengthX: 0.05
+  strengthY: 0.05
+  fishEyeShader: {fileID: 0}
 --- !u!114 &1112339073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5270,6 +5696,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd6d4281e5d7cd44d8c6e38bc2c1b8d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mode: 0
+  intensity: 0.375
+  chromaticAberration: 0.2
+  axialAberration: 0.5
+  blur: 0
+  blurSpread: 0.75
+  luminanceDependency: 0.25
+  blurDistance: 2.5
+  vignetteShader: {fileID: 0}
+  separableBlurShader: {fileID: 0}
+  chromAberrationShader: {fileID: 0}
 --- !u!114 &1112339074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5277,11 +5714,20 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1112339066}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0923359e9e352a4b9b11c7b7161ad67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Radius: 0.4
+  m_SampleCount: 1
+  m_OcclusionIntensity: 1.5
+  m_Blur: 2
+  m_Downsampling: 2
+  m_OcclusionAttenuation: 1
+  m_MinZ: 0.01
+  m_SSAOShader: {fileID: 0}
+  m_RandomTexture: {fileID: 0}
 --- !u!114 &1112339075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5289,11 +5735,18 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1112339066}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76b5ec6153a1d55438228df10fe66844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distanceFog: 1
+  useRadialDistance: 0
+  heightFog: 1
+  height: 1
+  heightDensity: 2
+  startDistance: 0
+  fogShader: {fileID: 0}
 --- !u!114 &1112339076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5306,6 +5759,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b5ec6153a1d55438228df10fe66844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distanceFog: 1
+  useRadialDistance: 0
+  heightFog: 1
+  height: 1
+  heightDensity: 2
+  startDistance: 0
+  fogShader: {fileID: 0}
 --- !u!114 &1112339077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5318,6 +5778,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0923359e9e352a4b9b11c7b7161ad67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Radius: 0.4
+  m_SampleCount: 1
+  m_OcclusionIntensity: 1.5
+  m_Blur: 2
+  m_Downsampling: 2
+  m_OcclusionAttenuation: 1
+  m_MinZ: 0.01
+  m_SSAOShader: {fileID: 0}
+  m_RandomTexture: {fileID: 0}
 --- !u!114 &1112339078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5330,6 +5799,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd6d4281e5d7cd44d8c6e38bc2c1b8d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mode: 0
+  intensity: 0.375
+  chromaticAberration: 0.2
+  axialAberration: 0.5
+  blur: 0
+  blurSpread: 0.75
+  luminanceDependency: 0.25
+  blurDistance: 2.5
+  vignetteShader: {fileID: 0}
+  separableBlurShader: {fileID: 0}
+  chromAberrationShader: {fileID: 0}
 --- !u!114 &1112339079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5342,6 +5822,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4739c22ef73ad62488fe344c8fe9addd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  strengthX: 0.05
+  strengthY: 0.05
+  fishEyeShader: {fileID: 0}
 --- !u!114 &1112339080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5354,6 +5837,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f19108706fdce9469603d07980eb8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blendMode: 3
+  intensity: 1
+  texture: {fileID: 0}
+  overlayShader: {fileID: 0}
 --- !u!114 &1112339081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5366,6 +5853,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88a26a276b4e47619ce2c5adad33fab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monochrome: 1
+  grainIntensityMin: 0.1
+  grainIntensityMax: 0.2
+  grainSize: 2
+  scratchIntensityMin: 0.05
+  scratchIntensityMax: 0.25
+  scratchFPS: 10
+  scratchJitter: 0.01
+  grainTexture: {fileID: 0}
+  scratchTexture: {fileID: 0}
+  shaderRGB: {fileID: 0}
+  shaderYUV: {fileID: 0}
 --- !u!114 &1112339082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5378,6 +5877,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a94b781cad112c75d0008dfa8d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shader: {fileID: 0}
+  radius: {x: 0.4, y: 0.4}
+  angle: 50
+  center: {x: 0.5, y: 0.5}
 --- !u!114 &1112339083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5390,6 +5893,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdda781cad112c75d0008dfa8d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shader: {fileID: 0}
+  radius: {x: 0.3, y: 0.3}
+  angle: 50
+  center: {x: 0.5, y: 0.5}
 --- !u!54 &1112339084
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6015,7 +6522,7 @@ Transform:
   m_Children:
   - {fileID: 88692452}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1311836994
 GameObject:
@@ -6132,7 +6639,7 @@ Transform:
   - {fileID: 569707432}
   - {fileID: 1935594063}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1334106543
 GameObject:
@@ -6178,6 +6685,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dc75028dc438d7469131dd9ccbef2cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MinLightIntensity: 0.44
+  MaxLightIntensity: 2.4
+  AccelerateTime: 17.1
+  on: 0
 --- !u!108 &1334106546
 Light:
   m_ObjectHideFlags: 0
@@ -6244,7 +6755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1354527379
 Transform:
   m_ObjectHideFlags: 0
@@ -6282,13 +6793,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1368054390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 53.379654, y: -15.385805, z: 25.704758}
+  m_LocalPosition: {x: 36.93, y: 13.4, z: 50.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1780269072}
   - {fileID: 493347020}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1378456308
 GameObject:
@@ -6448,6 +6959,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72632e0901ddab745ac7a8a18c08fee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ontop: 0
+  onbase: 0
+  onladder: 0
+  mychar: {fileID: 0}
+  curLadderPos: {fileID: 0}
+  curLadderTopS: {fileID: 0}
+  curLadderTopT: {fileID: 0}
+  curLadderBase: {fileID: 0}
 --- !u!82 &1421947179
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6670,6 +7189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ea512e96fc964f48b2fc6ddeffff73a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gazePointDataMode: 2
 --- !u!114 &1501605113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6682,6 +7202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a54ed5578a30af54da1741d9db2d4193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fixationDataMode: 0
 --- !u!114 &1501605114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6694,6 +7215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec3c4244bd5f46488dcc137962695d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eyeCamera: {fileID: 0}
+  _gazePointDataComponent: {fileID: 0}
 --- !u!114 &1501605115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6706,6 +7229,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dc75028dc438d7469131dd9ccbef2cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MinLightIntensity: 0.44
+  MaxLightIntensity: 2.4
+  AccelerateTime: 17.1
+  on: 0
 --- !u!4 &1501605116
 Transform:
   m_ObjectHideFlags: 0
@@ -6789,10 +7316,68 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4939293138812152, guid: a91a8c4706c9ed34aab95653bd9ea9ec, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a91a8c4706c9ed34aab95653bd9ea9ec, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1611130316
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917475557814350, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 32.060425
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917475557814350, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917475557814350, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -51.751404
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917475557814350, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917475557814350, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917475557814350, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917475557814350, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917475557814350, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4732742541365016, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.1951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4732742541365016, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.796618
+      objectReference: {fileID: 0}
+    - target: {fileID: 4732742541365016, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3.6147656
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562947110809724, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.6022
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9ea92b6cd9338a947814ed2f15003c52, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1616249261
 GameObject:
@@ -6916,7 +7501,7 @@ Transform:
   - {fileID: 1701363914}
   - {fileID: 592985308}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1653249710
 GameObject:
@@ -7001,6 +7586,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dc75028dc438d7469131dd9ccbef2cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MinLightIntensity: 0.44
+  MaxLightIntensity: 2.4
+  AccelerateTime: 17.1
+  on: 0
 --- !u!108 &1687137630
 Light:
   m_ObjectHideFlags: 0
@@ -7304,6 +7893,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee8e09b55c9664408f92da50efe2f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ThePlayer: {fileID: 0}
+  useMouse: 0
+  PausePanel: {fileID: 0}
+  GameOver: {fileID: 0}
 --- !u!4 &1759142447
 Transform:
   m_ObjectHideFlags: 0
@@ -7315,7 +7908,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1766357739
 GameObject:
@@ -7517,7 +8110,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 651070010}
   m_LocalRotation: {x: -0, y: -0.70710695, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -68.259, y: 22.553, z: -7.075}
+  m_LocalPosition: {x: -25.346, y: 18.655, z: -40.371}
   m_LocalScale: {x: 1, y: 1.2172899, z: 1}
   m_Children:
   - {fileID: 2057099377}
@@ -7544,7 +8137,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4265413069791666, guid: 4d4ea9ee9730217409a5c68d0abfe805, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -698.41
+      value: -730.4
       objectReference: {fileID: 0}
     - target: {fileID: 4265413069791666, guid: 4d4ea9ee9730217409a5c68d0abfe805, type: 2}
       propertyPath: m_LocalRotation.x
@@ -7564,7 +8157,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4265413069791666, guid: 4d4ea9ee9730217409a5c68d0abfe805, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d4ea9ee9730217409a5c68d0abfe805, type: 2}
@@ -8052,6 +8645,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a49d14170bfa640aec7c2bcbcc3020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_IsWalking: 0
+  m_WalkSpeed: 0
+  m_RunSpeed: 0
+  m_RunstepLenghten: 0
+  m_JumpSpeed: 0
+  m_StickToGroundForce: 0
+  m_GravityMultiplier: 0
+  m_MouseLook:
+    XSensitivity: 2
+    YSensitivity: 2
+    clampVerticalRotation: 1
+    MinimumX: -90
+    MaximumX: 90
+    smooth: 0
+    smoothTime: 5
+  m_UseFovKick: 0
+  m_FovKick:
+    Camera: {fileID: 0}
+    originalFov: 0
+    FOVIncrease: 3
+    TimeToIncrease: 1
+    TimeToDecrease: 1
+    IncreaseCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_UseHeadBob: 0
+  m_HeadBob:
+    HorizontalBobRange: 0.33
+    VerticalBobRange: 0.33
+    Bobcurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    VerticaltoHorizontalRatio: 1
+  m_JumpBob:
+    BobDuration: 0
+    BobAmount: 0
+  m_StepInterval: 0
+  m_FootstepSounds: []
+  m_JumpSound: {fileID: 0}
+  m_LandSound: {fileID: 0}
 --- !u!143 &1931461761
 CharacterController:
   m_ObjectHideFlags: 0
