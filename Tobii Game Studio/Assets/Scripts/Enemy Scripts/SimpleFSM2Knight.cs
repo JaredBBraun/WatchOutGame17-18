@@ -6,7 +6,7 @@ public class SimpleFSM2Knight : FSM
 {
 
 	public Animator AnimatorKnight;
-	public GameObject wanderPoint;
+	
 	// public float DistanceToPatrol= 10f;
 	public float DistanceToAttack = 5f;
 	public float DistanceToChase = 10f;
@@ -47,7 +47,7 @@ public class SimpleFSM2Knight : FSM
 	private bool bDead;
 	private int health;
 
-	public GazeAwareComponent _gazeAware;
+	private GazeAwareComponent _gazeAware;
 	private NavMeshAgent agent;
 
 
@@ -151,7 +151,7 @@ public class SimpleFSM2Knight : FSM
 	{
 		// Debug.Log(destPos);
 		agent.speed = patrolS;
-		Gazey = _gazeAware.HasGaze;
+		Gazey = _gazeAware.HasGaze; //bool if you are looking at it
 
 		float DistToPlayer = Vector3.Distance(transform.position, playerTransform.position);
 		//Find another random patrol point if the current point is reached
@@ -364,4 +364,8 @@ public class SimpleFSM2Knight : FSM
 		Destroy(gameObject, 1.5f);
 	}
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(destPos, 2f);
+    }
 }

@@ -213,7 +213,8 @@ public class SimpleFSM : FSM
     /// </summary>
     protected void FindNextPoint()
     {
-        print("Finding next point");
+        Debug.Log("Finding next point " + destPos);
+        
         int rndIndex = Random.Range(0, pointList.Length);
         float rndRadius = 10.0f;
         
@@ -255,6 +256,11 @@ public class SimpleFSM : FSM
         }
 
         Destroy(gameObject, 1.5f);
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(destPos, 2f);
     }
 
 }
