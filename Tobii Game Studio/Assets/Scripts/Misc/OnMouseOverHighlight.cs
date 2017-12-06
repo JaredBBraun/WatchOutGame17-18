@@ -5,7 +5,7 @@ using System.Collections;
 public class OnMouseOverHighlight : MonoBehaviour
 {
 	//When the mouse hovers over the GameObject, it turns to this color (red)
-	Color m_MouseOverColor = Color.red;
+	Color m_MouseOverColor = Color.magenta;
 	//This stores the GameObject’s original color
 	Color m_OriginalColor;
 	//Get the GameObject’s mesh renderer to access the GameObject’s material and color
